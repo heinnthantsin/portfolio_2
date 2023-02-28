@@ -1,0 +1,101 @@
+
+/* skill */
+.skill{
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+
+.skill-set{
+    width: 540px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.language{
+    color: white;
+    text-align:start;
+}
+
+.bg{
+    border-radius: 0 20px 20px 0;
+    background-color: #a2a2a2;
+    margin-top: 10px;
+}
+
+.rate{
+    background-color: yellow;
+    border-radius: 0 20px 20px 0;
+    color: #000;
+    text-align: center;
+}
+
+.html{
+    width: 90%;
+    
+}
+
+.css{
+    width: 80%;
+}
+
+.bs{
+    width: 90%;
+}
+
+.js{
+    width: 50%;
+}
+
+.jq{
+    width: 70%;
+}
+
+.php{
+    width: 60%;
+}
+
+.laravel{
+    width: 90%;
+}
+
+
+/* contact me  */
+.contact-me{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #000;
+}
+
+.form-control{
+    width: 400px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #a2a2a2;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+input.btn{
+    padding:10px 20px;
+    border-radius: 20px;
+    background-color: yellow;
+    color: #000;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+input.btn:hover{
+    border: 1px solid yellow;
+    background-color: transparent;
+    color: yellow;
+    transition: .5s;
+}

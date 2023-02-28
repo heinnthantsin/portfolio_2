@@ -1,0 +1,86 @@
+/* footer and upBtn  */
+footer{
+    padding: 30px 30px;
+    background-color: #a2a2a2;
+    font-size: 13px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>*{
+    color: #000;
+}
+
+footer b{
+    color: #000;
+}
+
+footer a{
+    margin: 0 10px;
+}
+
+footer div a i{
+    color: #000;
+    font-size: 15px;
+}
+
+footer div a i:hover{
+    color: red;
+    transform: scale3d(1.4,1.4,1.4);
+    transition: .5s;
+}
+
+/* upBtn  */
+.upBtn{
+    display: none;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.upBtn:hover{
+    background-color:transparent;
+    border:1px solid yellow ;
+    color: yellow;
+    transform: rotate(360deg);
+}
+.upBtn i{
+    color: red;
+    font-size: 20px;
+}
+
+.btnEnter{
+    animation: enter .8s ease;
+}
+
+.btnExit{
+    animation: exit .8s ease;
+}
+
+@keyframes enter {
+    from{
+        opacity: 0;
+        transform: scale3d(0.3,0.3,0.3);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes exit {
+    from{
+        opacity:1;
+    }
+    to{
+        opacity: 0;
+        transform: scale(0.3,0.3,0.3);
+    }
+}
